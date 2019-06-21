@@ -4,7 +4,8 @@
   "description": "A simple type based query builder for Postgresql queries",
   "main": "QueryBuilder.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint QueryBuilder.js __tests__"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,10 @@
   },
   "homepage": "https://github.com/Commander-lol/node-query-builder#readme",
   "devDependencies": {
+    "@bark/eslint-config": "^0.1.2",
+    "coveralls": "^3.0.4",
+    "eslint": "^5.16.0",
+    "eslint-plugin-jest": "^22.7.0",
     "jest": "^24.8.0"
   }
 }
