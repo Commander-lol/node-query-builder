@@ -1,0 +1,32 @@
+{
+  "name": "@commander-lol/pg-query",
+  "version": "0.2.0",
+  "description": "A simple type based query builder for Postgresql queries",
+  "main": "QueryBuilder.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Commander-lol/node-query-builder.git"
+  },
+  "keywords": [
+    "database",
+    "postgresql",
+    "pg",
+    "query",
+    "builder",
+    "querying",
+    "queries",
+    "tools",
+    "libraries",
+    "utils",
+    "utilities"
+  ],
+  "author": "Louis Capitanchik <contact@louiscap.co>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Commander-lol/node-query-builder/issues"
+  },
+  "homepage": "https://github.com/Commander-lol/node-query-builder#readme"
+}
