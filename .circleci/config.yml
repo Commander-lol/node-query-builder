@@ -40,7 +40,7 @@ jobs:
 
       - run:
           name: Test Code
-          command: npx jest --coverage --coverageReporters=text-lcov | coveralls
+          command: npx jest --coverage --coverageReporters=text-lcov | npx coveralls
 
 workflows:
   version: 2
