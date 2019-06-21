@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/Commander-lol/node-query-builder/issues"
   },
-  "homepage": "https://github.com/Commander-lol/node-query-builder#readme"
+  "homepage": "https://github.com/Commander-lol/node-query-builder#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
 }
